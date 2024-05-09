@@ -1,3 +1,9 @@
+## 0.1.4 (2024-05-09)
+
+### Fix
+
+- synchronize cz and poetry versions
+
 ## 0.1.3 (2024-05-09)
 
 ### Fix
