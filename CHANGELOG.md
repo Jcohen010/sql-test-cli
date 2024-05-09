@@ -1,3 +1,9 @@
+## 0.1.2 (2024-05-09)
+
+### Fix
+
+- correct path to logo for docs and readme
+
 ## 0.1.1 (2024-05-09)
 
 ### Fix
