@@ -14,11 +14,11 @@ jobs:
       - name: Check out
         uses: actions/checkout@v4
         with:
-          token: "${{ secrets.SQL_TEST_CLI_PAC }}"
+          token: "${{ secrets.SQL_TEST_CLI_PAT }}"
           fetch-depth: 0
       - run: |
           git fetch --tags          
       - name: Create bump and changelog
         uses: commitizen-tools/commitizen-action@master
         with:
-          github_token: ${{ secrets.SQL_TEST_CLI_PAC }}
+          github_token: ${{ secrets.SQL_TEST_CLI_PAT }}
