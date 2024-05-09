@@ -1,0 +1,5 @@
+venv/
+.env
+**/__pycache__/
+.sql-test-cli
+sql-test-cli.yaml
